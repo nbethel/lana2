@@ -1,0 +1,99 @@
+Urgent Turtle Flu Vaccine Development Project
+=============================================
+The overarching goal of this project is to develop a vaccine against turtle
+flu.  Several variants of the flu have been identified and four key genes from
+each variant have been sequenced.  You have been be given the aligned
+sequences.  Your task is to identify those regions of the genes that are most
+conserved, and therefore would be the most fruitful targets for a vaccine.
+
+This project can be broken down into a handful of different components, of
+varying difficulties.  It is our hope that everyone will be able to work on
+some part of the project at their own speed, and that in the end everyone's
+efforts will contribute to the final results.  One possible way of dividing the
+work might be:
+
+    * Continue to work on the project that was started yesterday, namely
+      reading in DNA sequences and converting them to amino acid sequences[1].
+      This task is of intermediate difficulty, and might it might make sense
+      for the beginner and intermediate programmers in the group to work on it
+      together.
+
+    * Devise a method to score conservation within one column in an alignment.
+      In other words, write a function that takes a series of one-letter amino
+      acid codes and returns a score.  Feel free to devise your own metric, but
+      be aware that this topic has been well studied[2].  Beginning and
+      intermediate programmers may be able to write a simple implementation,
+      but this part of the project is probably best done by the expert.
+
+    * Write a function that scans through windows of the alignments, invokes
+      the conservation score function, and returns a combined score for each
+      window.  Note that this function determines in what format the sequences
+      need to be read and in what format the score function will be given a
+      column of the alignment.  This is a difficult but important function, and
+      should be done early on by the expert programmer.
+
+    * Find a way to visualize the regions that are the most conserved.  This
+      could mean printing out a list of windows sorted by their conservation
+      score, of it could mean generating a graphical plot of conservation as a
+      function of base pair index.  The former implementation could possibly be
+      written by a less experienced programmer.
+
+Although this is meant to be a programming project, we will show you how to
+cluster sequences into phylogenetic groups using the `jalview' program.  Your
+group does not need to do this if it doesn't want to, but it may be
+advantageous to analyze different subfamilies of the virus separately from each
+other in order to find regions that are more strongly conserved.  Remeber that
+you are allowed to propose many candidate sequences for a vaccine; you're not
+limited to just one.
+
+At the end of the project, each group will give a presentation explaining both
+the vaccination strategy it came up with and how that strategy was conceived.
+The presentation should be made by the expert programmers, so that the newer
+programmers will have as much time as possible to continue writing their code.
+
+Direct any questions you may have about the project to me.  My name is Kale and
+my email address is given below.  This is the first year that bootcamp has had
+a programming project, so I hope you can bear with us if things don't go as
+smoothly as we'd like them to!
+
+Kale Kundert
+kale.kundert@ucsf.edu
+
+[1] You actually don't need to do as much for this project as we had you doing
+    yesterday.  The sequences you have been given are from the coding strand of
+    the DNA, so you don't have to take the reverse complement or transcribe the
+    DNA to RNA.  You just have to convert the DNA to protein.
+
+    To help you, I've included a table of DNA codons in the project files.  The
+    table is called `dna-codons.dat'. A good task for a beginning programmer
+    may be to convert this file into a dictionary.  Such a dictionary will be
+    needed for the translation process.
+
+    However, one extra wrinkle in this subproject is that these sequences now
+    contain gaps.  You have to be mindful of this, but it shouldn't force any
+    major changes to your code.
+
+[2] Here is a somewhat old reference I used to write some conservation scores.
+    I'm not in the field of bioinformatics, so I can't tell you much about how
+    obsolete these methods are, but I found that the discussion was fairly clear
+    and that the methods were straight-forward to implement:
+
+    Valdar, W. S.J. (2002), Scoring residue conservation. Proteins, 48: 227–241.
+
+    If you decide to roll your own scoring function, here are a few things you
+    might consider: How will your score handle gaps?  Is your score sensitive
+    to the number of sequences being compared?  Does your score differentiate
+    between conservative (e.g. D to E) and non-conservative (e.g. D to W)
+    mutations?
+
+Finally, here is an ASCII art picture of a turtle named Bob.  It's a little bit
+hard to tell, since the picture is so low resolution, but Bob is stricken with
+a serious case of the turtle flu.  He needs you to develop a cure, so he can
+go back to his turtle family and live a long, happy life.  Don't let Bob die!
+
+                            .,-;-;-,. /'_\
+                          _/_/_/_|_\_\) / 
+                        '-<_><_><_><_>=/\
+                          `/_/====/_/-'\_\
+                           ""     ""    ""                     portrait by jgs
+
