@@ -24,10 +24,11 @@ var scriptName : GameObject;
 private var springJoint : SpringJoint;
 
 private var controller : CharacterController; 
+private var motor : CharacterMotor; //here
   
 function Start(){
 	controller = GetComponent(CharacterController);
-	
+	motor = GetComponent(CharacterMotor); //here
 	//NEVILLE LOOK AT THIS SHITTTTT
 	//scriptName.GetComponent(ScoreTextScript).AddScore();
 }  
@@ -85,12 +86,13 @@ function DragObject (distance : float){
 		yield;
 		if (distance > 2){
 			//Screen.lockCursor = true;
-			Input.ResetInputAxes();
+			motor.enabled=false;
 			//this.rigidbody.velocity = Vector3.zero;
 			//this.rigidbody.angularVelocity = Vector3.zero;
 		}
 		if ((!Screen.lockCursor) && (distance <= 2)){
 			//Screen.lockCursor = false;
+			motor.enabled=true;
 			
 		}
 		
