@@ -86,13 +86,13 @@ function DragObject (distance : float){
 		yield;
 		if (distance > 2){
 			//Screen.lockCursor = true;
-			motor.enabled=false;
+			motor.canControl=false;
 			//this.rigidbody.velocity = Vector3.zero;
 			//this.rigidbody.angularVelocity = Vector3.zero;
 		}
 		if ((!Screen.lockCursor) && (distance <= 2)){
 			//Screen.lockCursor = false;
-			motor.enabled=true;
+			motor.canControl=true;
 			
 		}
 		
