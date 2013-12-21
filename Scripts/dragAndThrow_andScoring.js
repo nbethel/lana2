@@ -25,10 +25,12 @@ private var springJoint : SpringJoint;
 
 private var controller : CharacterController; 
 private var motor : CharacterMotor; //here
+private var mouse : MouseLook;
   
 function Start(){
 	controller = GetComponent(CharacterController);
 	motor = GetComponent(CharacterMotor); //here
+	mouse = GetComponent(MouseLook);
 	//NEVILLE LOOK AT THIS SHITTTTT
 	//scriptName.GetComponent(ScoreTextScript).AddScore();
 }  
@@ -86,12 +88,14 @@ function DragObject (distance : float){
 		yield;
 		if (distance > 2){
 			//Screen.lockCursor = true;
-			motor.canControl=false;
+			mouse.dragflag=false;
+			//motor.canControl=false;
 			//this.rigidbody.velocity = Vector3.zero;
 			//this.rigidbody.angularVelocity = Vector3.zero;
 		}
 		if ((!Screen.lockCursor) && (distance <= 2)){
 			//Screen.lockCursor = false;
+			mouse.dragflag=true;
 			motor.canControl=true;
 			
 		}
