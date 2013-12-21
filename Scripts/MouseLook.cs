@@ -27,7 +27,7 @@ public class MouseLook : MonoBehaviour {
 
 	public float minimumY = -60F;
 	public float maximumY = 60F;
-	bool dragflag=true;
+	public bool dragflag=true;
 
 	float rotationY = 0F;
 
