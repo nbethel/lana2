@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A85EE277-FC0C-2D4F-C793-4825D2D500C7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\playAnimationTest.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\AI_Scripts\AI_Follow.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\AI_Scripts\playerAttack.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\HpManaBars.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\Instructions.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\PlayerScripts\Teleport.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\PlayerScripts\cameraCollision.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\PlayerScripts\cameraCollision2.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\PlayerScripts\inventory.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\PlayerScripts\movement.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\RTS_MinionAI.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\RTS_menu.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\RTSplayerAttack.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\TowerScript.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\clickToMove.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\minionSpell.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\playerFireAttack.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\playerStatsBars.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\rtsCamera.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\RTS_Scripts\spawnMinions.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\arcadeScoreSystem.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\autoType.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\camSwitch.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\cameraLockUnlock.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\camouflage.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\chatSystem.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\clickDragtoRotate.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\cursorImage.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\destroyIfTargetMissing.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\fadeAlpha.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\fadeScript.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\flickeringLight.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\flyCam_script.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\growFur.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\growPlant.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\guiDialogue.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\guiEnemyLabel.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\guiLabel.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\hideObject.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\hoverText.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\hoverText2.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\iconBasedInventory.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\itemStore.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\lookAt.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\menuScript.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\modifyCsharpWithJava.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\moveTarget.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\npcDialogue.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\orbitingObject.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\password.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\pauseGame.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\pickupItem.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\save_loadData.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\scrollingCombatText.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\scrollingTexture.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\shakeCam.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\shopKeeper.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\spawnPlayers.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\spawnPrefab.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\spriteSheetAnimation.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\sunEffects.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\switchScript.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\textureSwap.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\timerCountdown.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\tossThing.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\typeLabel.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\up_down_platform.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\walkAnimation.js" />
+     <Compile Include="Assets\Standard Assets\Scripts\walkAudio.js" />
+     <Compile Include="Assets\Standard Assets\playerStats.js" />
+     <None Include="Assets\Materials\Fur Files\Support\Fur.shader" />
+     <None Include="Assets\Materials\overlay.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
+     <None Include="Assets\Materials\DoubleSidedCutout.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
+     <None Include="Assets\Materials\otherDiffuse.shader" />
+     <None Include="Assets\Materials\DoubleSided.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\WaypointShader.shader" />
+     <None Include="Assets\Materials\fadeMore.shader" />
+     <None Include="Assets\Materials\diffuseBetter.shader" />
+     <None Include="Assets\Materials\Fur Files\Support\FurHelpers.cginc" />
+     <None Include="Assets\Materials\plaidEffect.shader" />
+     <None Include="Assets\Materials\rimLighting.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectSphereShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\Materials\fadeTex.shader" />
+ <Reference Include="Assets\RAIN\RAIN">
+ <HintPath>Assets\RAIN\RAIN.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\RAIN\RAINMetaform">
+ <HintPath>Assets\RAIN\RAINMetaform.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

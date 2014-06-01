@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Camo.cs">
+    <Files>
+      <File FileName="Assets/Health.cs" Line="9" Column="2" />
+      <File FileName="Assets/AI/Actions/AIGetDefenderCamo.cs" Line="1" Column="1" />
+      <File FileName="Assets/AI/Actions/AIGetDefenderHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Camo.cs" Line="29" Column="1" />
+      <File FileName="Assets/Standard Assets/Stats.js" Line="3" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" line="27" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" line="111" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" line="344" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" line="309" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/diffuseWrapped.shader" line="50" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/InventoryAssets/Scripts/Character.js" line="75" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/InventoryAssets/Scripts/Character.js" line="96" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/InventoryAssets/Scripts/Character.js" line="105" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/InventoryAssets/Scripts/Character.js" line="160" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/InventoryAssets/Scripts/Character.js" line="254" />
+      <Breakpoint file="/Users/ikatz/Desktop/Golem Files/Golem/Assets/Standard Assets/Scripts/PlayerScripts/cameraCollision2.js" line="60" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

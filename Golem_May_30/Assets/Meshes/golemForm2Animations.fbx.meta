@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: 3da13a56abc57408bad76ddbe9f0d660
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group13
+    100004: headBone
+    100006: joint32
+    100008: joint33
+    100010: joint34
+    100012: joint36
+    100014: joint37
+    100016: joint38
+    100018: joint39
+    100020: joint40
+    100022: joint41
+    100024: joint42
+    100026: joint43
+    100028: joint44
+    100030: joint45
+    100032: joint46
+    100034: joint47
+    100036: joint48
+    100038: joint49
+    100040: joint50
+    100042: joint51
+    100044: joint53
+    100046: polySurface37
+    100048: polySurface38
+    400000: //RootNode
+    400002: group13
+    400004: headBone
+    400006: joint32
+    400008: joint33
+    400010: joint34
+    400012: joint36
+    400014: joint37
+    400016: joint38
+    400018: joint39
+    400020: joint40
+    400022: joint41
+    400024: joint42
+    400026: joint43
+    400028: joint44
+    400030: joint45
+    400032: joint46
+    400034: joint47
+    400036: joint48
+    400038: joint49
+    400040: joint50
+    400042: joint51
+    400044: joint53
+    400046: polySurface37
+    400048: polySurface38
+    4300000: polySurface38
+    7400000: idleAnimation
+    7400002: walkAnimation
+    7400004: sneakAnimation
+    7400006: hideAnimation
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: polySurface38
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idleAnimation
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group13
+        weight: 1
+      - path: group13/joint53
+        weight: 1
+      - path: group13/joint53/joint32
+        weight: 1
+      - path: group13/joint53/joint32/joint33
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34/headBone
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34/headBone/joint36
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40/joint41
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40/joint41/joint42
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43/joint44
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43/joint44/joint45
+        weight: 1
+      - path: group13/joint53/joint37
+        weight: 1
+      - path: group13/joint53/joint37/joint38
+        weight: 1
+      - path: group13/joint53/joint37/joint38/joint39
+        weight: 1
+      - path: group13/joint53/joint46
+        weight: 1
+      - path: group13/joint53/joint46/joint47
+        weight: 1
+      - path: group13/joint53/joint46/joint47/joint48
+        weight: 1
+      - path: group13/joint53/joint49
+        weight: 1
+      - path: group13/joint53/joint49/joint50
+        weight: 1
+      - path: group13/joint53/joint49/joint50/joint51
+        weight: 1
+      - path: polySurface37
+        weight: 1
+      - path: polySurface37/polySurface38
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walkAnimation
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group13
+        weight: 1
+      - path: group13/joint53
+        weight: 1
+      - path: group13/joint53/joint32
+        weight: 1
+      - path: group13/joint53/joint32/joint33
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34/headBone
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34/headBone/joint36
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40/joint41
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40/joint41/joint42
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43/joint44
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43/joint44/joint45
+        weight: 1
+      - path: group13/joint53/joint37
+        weight: 1
+      - path: group13/joint53/joint37/joint38
+        weight: 1
+      - path: group13/joint53/joint37/joint38/joint39
+        weight: 1
+      - path: group13/joint53/joint46
+        weight: 1
+      - path: group13/joint53/joint46/joint47
+        weight: 1
+      - path: group13/joint53/joint46/joint47/joint48
+        weight: 1
+      - path: group13/joint53/joint49
+        weight: 1
+      - path: group13/joint53/joint49/joint50
+        weight: 1
+      - path: group13/joint53/joint49/joint50/joint51
+        weight: 1
+      - path: polySurface37
+        weight: 1
+      - path: polySurface37/polySurface38
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: sneakAnimation
+      takeName: Take 001
+      firstFrame: 122
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group13
+        weight: 1
+      - path: group13/joint53
+        weight: 1
+      - path: group13/joint53/joint32
+        weight: 1
+      - path: group13/joint53/joint32/joint33
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34/headBone
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34/headBone/joint36
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40/joint41
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40/joint41/joint42
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43/joint44
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43/joint44/joint45
+        weight: 1
+      - path: group13/joint53/joint37
+        weight: 1
+      - path: group13/joint53/joint37/joint38
+        weight: 1
+      - path: group13/joint53/joint37/joint38/joint39
+        weight: 1
+      - path: group13/joint53/joint46
+        weight: 1
+      - path: group13/joint53/joint46/joint47
+        weight: 1
+      - path: group13/joint53/joint46/joint47/joint48
+        weight: 1
+      - path: group13/joint53/joint49
+        weight: 1
+      - path: group13/joint53/joint49/joint50
+        weight: 1
+      - path: group13/joint53/joint49/joint50/joint51
+        weight: 1
+      - path: polySurface37
+        weight: 1
+      - path: polySurface37/polySurface38
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hideAnimation
+      takeName: Take 001
+      firstFrame: 23
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group13
+        weight: 1
+      - path: group13/joint53
+        weight: 1
+      - path: group13/joint53/joint32
+        weight: 1
+      - path: group13/joint53/joint32/joint33
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34/headBone
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint34/headBone/joint36
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40/joint41
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint40/joint41/joint42
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43/joint44
+        weight: 1
+      - path: group13/joint53/joint32/joint33/joint43/joint44/joint45
+        weight: 1
+      - path: group13/joint53/joint37
+        weight: 1
+      - path: group13/joint53/joint37/joint38
+        weight: 1
+      - path: group13/joint53/joint37/joint38/joint39
+        weight: 1
+      - path: group13/joint53/joint46
+        weight: 1
+      - path: group13/joint53/joint46/joint47
+        weight: 1
+      - path: group13/joint53/joint46/joint47/joint48
+        weight: 1
+      - path: group13/joint53/joint49
+        weight: 1
+      - path: group13/joint53/joint49/joint50
+        weight: 1
+      - path: group13/joint53/joint49/joint50/joint51
+        weight: 1
+      - path: polySurface37
+        weight: 1
+      - path: polySurface37/polySurface38
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 

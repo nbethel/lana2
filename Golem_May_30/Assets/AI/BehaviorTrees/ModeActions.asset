@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1227330239, guid: 7e05d98b76716c6489a361c6333b2b7f, type: 3}
+  m_Name: ModeActions
+  m_EditorClassIdentifier: 
+  _dataSerializer:
+    _serializedData: <scriptableobject version="1.0" type="RAIN.BehaviorTrees.BTAsset"><fields><field
+      value="&lt;behaviortree version=&quot;1.1&quot; repeatuntil=&quot;&quot; name=&quot;ModeActions&quot;&gt;&lt;parallel
+      tiebreaker=&quot;fail&quot; succeed=&quot;any&quot; repeatuntil=&quot;&quot;
+      name=&quot;root&quot; fail=&quot;any&quot;&gt;&lt;detect sensor=&quot;&amp;quot;Visual
+      Sensor&amp;quot;&quot; repeatuntil=&quot;running&quot; name=&quot;See Golem&quot;
+      entityobjectvariable=&quot;defender&quot; aspectvariable=&quot;&quot; aspectobjectvariable=&quot;&quot;
+      aspect=&quot;&amp;quot;golem&amp;quot;&quot; /&gt;&lt;detect sensor=&quot;&amp;quot;Track&amp;quot;&quot;
+      repeatuntil=&quot;running&quot; name=&quot;Track Golem&quot; entityobjectvariable=&quot;trackTarget&quot;
+      aspectvariable=&quot;&quot; aspectobjectvariable=&quot;&quot; aspect=&quot;&amp;quot;golem&amp;quot;&quot;
+      /&gt;&lt;action repeatuntil=&quot;running&quot; parametervalues=&quot;ZGVmZW5kZXI=&quot;
+      parameters=&quot;ZW5lbXk=&quot; namespace=&quot;(global)&quot; name=&quot;Get
+      Golem Health&quot; classname=&quot;AIGetGolemHealth&quot; /&gt;&lt;action repeatuntil=&quot;running&quot;
+      parametervalues=&quot;ZGVmZW5kZXI=&quot; parameters=&quot;ZW5lbXk=&quot; namespace=&quot;(global)&quot;
+      name=&quot;Get Golem Camo&quot; classname=&quot;AIGetGolemCamo&quot; /&gt;&lt;selector
+      usepriorities=&quot;False&quot; repeatuntil=&quot;&quot; name=&quot;Wander Or
+      Attack&quot;&gt;&lt;constraint repeatuntil=&quot;&quot; priority=&quot;&quot;
+      name=&quot;Chase and Attack Constraint&quot; constraint=&quot;defender != null&quot;&gt;&lt;sequencer
+      usepriorities=&quot;False&quot; repeatuntil=&quot;&quot; name=&quot;sequencer&quot;&gt;&lt;action
+      repeatuntil=&quot;&quot; priority=&quot;&quot; parametervalues=&quot;ZGVmZW5kZXI=&quot;
+      parameters=&quot;ZW5lbXk=&quot; namespace=&quot;(global)&quot; name=&quot;Set
+      Mode 1&quot; classname=&quot;AISetMode1&quot; /&gt;&lt;/sequencer&gt;&lt;/constraint&gt;&lt;constraint
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;Wander Constraint&quot;
+      constraint=&quot;defender == null&quot; /&gt;&lt;/selector&gt;&lt;/parallel&gt;&lt;/behaviortree&gt;"
+      type="System.String" id="treeData" /><field type="System.Array" id="treeBindings"
+      elementtype="System.String" /></fields><references /></scriptableobject>
+    _serializedGameObjects: []
+    _serializedCustomData: []
